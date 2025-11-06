@@ -136,17 +136,20 @@ header{
     margin-bottom: 10px;
 }
 .banner__sub{
-    padding: 25px 20px 8px;
+    padding: 17px 20px 8px;
+
+    gap: 10px;
     background: #fff;
     width: fit-content;
     font-size: 48px;
     font-family: "Bebas Neue Cyrillic", sans-serif;
     color: #161515;
     margin-bottom: 30px;
+    max-height: 115px;
 }
 .banner__sub span{
     font-size: 82px;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     color: #F42929;
 }
@@ -774,6 +777,12 @@ footer{
     font-weight: 400;
     font-size: 18px;
     line-height: 1.4;
+}
+.faq details div p{
+    margin-bottom: 10px;
+}
+.faq details div p:last-child{
+    margin-bottom: 0;
 }
 .working__content{
     gap: 20px;
