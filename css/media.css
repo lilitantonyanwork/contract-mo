@@ -1,0 +1,576 @@
+@media  screen and (min-width: 1500px){
+    .become__banner{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1340px){
+    .container{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .contact__left{
+        width: 600px;
+    }
+    .contact__right{
+        width: calc(100% - 640px);
+    }
+    .medical__left{
+        width: 600px;
+    }
+    .medical__right{
+        width: calc(100% - 620px);
+    }
+    .working__left{
+        width: 600px;
+    }
+    .working__right{
+        width: calc(100% - 620px);
+    }
+    .vacancy__right{
+        max-width: 440px;
+    }
+    .ordering__right{
+        max-width: 560px;
+    }
+    .ordering__left{
+        max-width: calc(100% - 580px);
+    }
+    .become__right{
+        padding-bottom: 50px;
+    }
+    .become__left{
+        display: flex;
+        align-items: flex-end;
+    }
+    .benefit__left{
+        max-width: 600px;
+    }
+    .benefit__right{
+        max-width: calc(100% - 620px);
+    }
+    .withdraw__left{
+        max-width: 600px;
+    }
+    .withdraw__right{
+        max-width: calc(100% - 620px);
+    }
+
+}
+@media screen and (max-width: 1100px) {
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .menu__link{
+        font-size: 18px;
+    }
+    .btn{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    header .btn__white{
+        font-size: 16px;
+    }
+    header .btn__red{
+        font-size: 16px;
+    }
+    .form{
+        padding-top: 50px;
+    }
+    .contract{
+        padding-top: 50px;
+    }
+    .withdraw{
+        padding-top: 50px;
+    }
+    .benefits{
+        padding-top: 50px;
+    }
+    .additional{
+        padding-top: 50px;
+    }
+    .pricing__item p{
+        width: calc(100% - 30px);
+        font-size: 32px;
+    }
+    .equipment{
+        padding-top: 100px;
+    }
+    .equipment__right{
+        padding-right: 30px;
+    }
+    .equipment__text h3{
+        font-size: 16px;
+    }
+    .equipment__text p{
+        font-size: 14px;
+    }
+    .equipment__item{
+        height: auto;
+    }
+    .equipment__img{
+        width: 60px;
+    }
+    .equipment__text{
+        width: calc(100% - 75px);
+    }
+    .become-to-contract{
+        padding-top: 50px;
+    }
+    .ordering{
+        padding-top: 50px;
+    }
+    .choose{
+        padding-top: 50px;
+    }
+    .medical{
+        padding-top: 50px;
+    }
+    .working{
+        padding-top: 50px;
+    }
+    .faq{
+        padding-top: 50px;
+    }
+    .contact{
+        padding-top: 50px;
+    }
+    .benefit__img{
+        height: auto;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .section__title{
+        font-size: 32px;
+    }
+    .section__text{
+        font-size: 18px;
+    }
+    .contract__item{
+        width: calc(100%/2 - 18px);
+    }
+    .withdraw__left {
+        max-width: 500px;
+    }
+    .withdraw__right {
+        max-width: calc(100% - 520px);
+    }
+    .benefit__left {
+        max-width: 500px;
+    }
+    .benefit__right {
+        max-width: calc(100% - 520px);
+    }
+    .pricing__item p{
+        height: 60px;
+        bottom: -30px;
+    }
+    .equipment__left{
+        max-width: 400px;
+    }
+    .equipment__right{
+        max-width: calc(100% - 420px);
+        width: 100%;
+    }
+    .ordering__right{
+        max-width: 500px;
+    }
+    .ordering__left{
+        max-width: calc(100% - 520px);
+    }
+    .choose__item h3{
+        font-size: 24px;
+    }
+    .vacancy__right h2{
+        font-size: 28px;
+    }
+    .vacancy-banner{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .vacancy__right p{
+        font-size: 18px;
+    }
+    .medical__left{
+        width: 500px;
+    }
+    .medical__right {
+        width: calc(100% - 520px);
+    }
+    .working__left {
+        width: 500px;
+    }
+    .working__right {
+        width: calc(100% - 520px);
+    }
+    .contact__left {
+        width: 500px;
+    }
+    .contact__right {
+        width: calc(100% - 540px);
+    }
+}
+@media  screen and (max-width: 900px){
+    .btn__menu{
+        display: flex;
+        height: auto;
+        padding: 0;
+    }
+    .menu{
+        display: none;
+        transition: all .3s;
+    }
+    .menu.open{
+        display: flex;
+        position: absolute;
+        top: 99px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        z-index: 10;
+        align-items: flex-start;
+        padding-left: 30px;
+        background: url('../img/navbar.png') ;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .banner__title span{
+        font-size: 60px;
+    }
+    .banner__sub{
+        font-size: 32px;
+    }
+    .banner__sub span{
+        font-size: 60px;
+    }
+    .banner{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .banner:after{
+        background-size: 60%;
+    }
+    .form__row:last-child{
+        flex-direction: column;
+    }
+    label a{
+        margin-left: 5px;
+    }
+    .contract__left{
+        display: none;
+    }
+    .contract__right{
+        width: 100%;
+    }
+    .contract__item{
+        background-size: cover;
+        width: calc(100% / 2 - 10px);
+    }
+    .contract__item:first-child{
+        background-size: cover;
+    }
+    .contract__item:nth-child(2),   .contract__item:nth-child(3), .contract__item:nth-child(4), .contract__item:nth-child(5), .contract__item:nth-child(6){
+        background-size: cover;
+    }
+    .withdraw__left {
+        max-width: 450px;
+    }
+    .withdraw__right{
+        max-width: calc(100% - 470px);
+    }
+    .withdraw__item h3{
+        font-size: 28px;
+    }
+    .withdraw__item:first-child{
+        padding: 15px;
+    }
+    .withdraw__item:first-child{
+        margin-bottom: 10px;
+    }
+    .withdraw__item{
+        padding: 12px 15px;
+    }
+    .withdraw__item h4{
+        font-size: 28px;
+    }
+    .withdraw__item p{
+        font-size: 16px;
+    }
+    .benefit__content h3{
+        font-size: 18px;
+    }
+    .benefit__row li{
+        font-size: 14px;
+    }
+    .benefit__content{
+        padding: 18px 15px;
+    }
+    .benefit__left{
+        max-width: 400px;
+    }
+    .benefit__right {
+        max-width: calc(100% - 420px);
+        padding: 30px;
+    }
+    .benefit__right h3{
+        font-size: 24px;
+    }
+    .benefit__right h4{
+        font-size: 20px;
+    }
+    .equipment__left{
+        display: none;
+    }
+    .equipment__right{
+        max-width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .become__right h3{
+        font-size: 24px;
+    }
+    .become__right{
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .ordering__right {
+        max-width: 400px;
+    }
+    .ordering__left {
+        max-width: calc(100% - 420px);
+    }
+    .order__item{
+        padding-left: 30px;
+    }
+    .order__item h3{
+        font-size: 20px;
+    }
+    .order__item p{
+        font-size: 16px;
+    }
+    .vacancy__right {
+        max-width: 380px;
+    }
+    .vacancy-banner{
+        background-position: bottom;
+    }
+    .medical__left{
+        width: 400px;
+    }
+    .medical__right {
+        width: calc(100% - 420px);
+    }
+    .working__left {
+        width: 400px;
+    }
+    .working__right {
+        width: calc(100% - 420px);
+    }
+    .faq summary{
+        font-size: 18px;
+        padding: 30px 15px;
+    }
+    .faq details div{
+        padding: 20px 15px 30px;
+        font-size: 16px;
+    }
+    .form__content{
+        padding: 30px;
+    }
+    .form__title{
+        font-size: 28px;
+    }
+    .contact__left{
+        width: 400px;
+    }
+    .contact__right {
+        width: calc(100% - 440px);
+    }
+    footer .menu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .btn{
+        white-space: nowrap;
+    }
+    footer .menu__link{
+        font-size: 14px;
+    }
+    footer .container{
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 768px){
+    .banner{
+        padding-top: 180px;
+    }
+    .withdraw__content{
+        flex-direction: column;
+    }
+    .withdraw__item{
+        width: 100%;
+    }
+    .withdraw__right{
+        max-width: 100%;
+    }
+    .withdraw__left{
+        margin: 0 auto  ;
+    }
+    .benefit__row{
+        flex-wrap: wrap;
+    }
+    .benefit__item{
+        width: 100%;
+    }
+    .benefit__img img{
+        width: 100%;
+    }
+    .benefit__right{
+        max-width: 100% ;
+    }
+    .benefit__left{
+        max-width: 100%;
+        text-align: center;
+
+    }
+    .benefit__left img{
+        margin: 0 auto;
+    }
+    .pricing__item{
+        width: calc(100%/2 - 10px);
+    }
+    .equipment__item {
+        width: calc(100% / 2 - 10px);
+    }
+    .ordering__content{
+        flex-direction: column;
+    }
+    .ordering__left{
+        max-width: 100%;
+    }
+    .ordering__right{
+        margin: 0 auto;
+    }
+    .choose__item{
+        width: 100%;
+    }
+    .medical__content{
+        flex-direction: column;
+    }
+    .medical__right{
+        width: 100%;
+    }
+    .medical__left{
+        margin: 0 auto;
+    }
+    .working__content{
+        flex-direction: column;
+    }
+    .working__right{
+        width: 100%;
+    }
+    .working__left{
+        margin: 0 auto;
+    }
+    .faq summary{
+        padding-right: 80px;
+    }
+    .contact__content{
+        flex-direction: column-reverse;
+    }
+    .contact__right{
+        width: 100%;
+    }
+    .contact__left{
+        width: 100%;
+    }
+}
+@media  screen and (max-width: 600px){
+    .form__row{
+        flex-direction: column;
+    }
+    label{
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    footer .actions{
+        flex-direction: column;
+    }
+    footer .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contract__item{
+        width: 100%;
+    }
+    .equipment__item{
+        flex-direction: column;
+    }
+    .equipment__text{
+        width: 100%;
+    }
+    .become__banner{
+        flex-direction: column-reverse;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .contact__right{
+        padding-top: 0;
+    }
+}
+@media  screen and (max-width: 480px){
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner{
+        padding-top: 150px;
+    }
+    .banner__title span {
+        font-size: 40px;
+    }
+    .banner__sub {
+        font-size: 24px;
+    }
+    .banner__sub span {
+        font-size: 40px;
+    }
+    .banner__text{
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .banner .btn__red{
+        font-size: 20px;
+        height: 53px;
+    }
+    .form__content{
+        padding: 30px 15px;
+    }
+    .pricing__item {
+        width: 100%;
+    }
+    .pricing__img img{
+        width: 100%;
+    }
+    .equipment__item{
+        width: 100%;
+    }
+    .equipment__right{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .working__left{
+        width: 100%;
+    }
+    .medical__left{
+        width: 100%;
+    }
+    header .actions .btn__red{
+        display: none;
+    }
+    .form__title {
+        font-size: 24px;
+    }
+}
