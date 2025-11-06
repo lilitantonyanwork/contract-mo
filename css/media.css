@@ -28,6 +28,7 @@
         background: url(../img/b1.svg) no-repeat;
         background-position: bottom right;
         bottom: 0;
+        z-index: -1;
     }
     .vacancy-banner{
         background: url('../img/vv-banner.png') no-repeat;

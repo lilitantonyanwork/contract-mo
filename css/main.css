@@ -136,7 +136,7 @@ header{
     margin-bottom: 10px;
 }
 .banner__sub{
-    padding: 17px 20px 8px;
+    padding: 22px 20px 8px;
 
     gap: 10px;
     background: #fff;
@@ -146,6 +146,7 @@ header{
     color: #161515;
     margin-bottom: 30px;
     max-height: 115px;
+    line-height: 82px;
 }
 .banner__sub span{
     font-size: 82px;
