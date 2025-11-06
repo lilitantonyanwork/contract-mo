@@ -573,4 +573,7 @@
     .form__title {
         font-size: 24px;
     }
+    footer .menu{
+        justify-content: center;
+    }
 }
